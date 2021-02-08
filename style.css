@@ -1,0 +1,25 @@
+.country-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.country-details {
+  text-align: center;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+img {
+  width: 300px;
+}
+.all-country-name {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  margin: 50px;
+}
+.country {
+  border: 1px solid green;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+}
